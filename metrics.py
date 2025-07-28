@@ -59,11 +59,13 @@ arvore_predict
 df_predict = df_analysis[['pessoa feliz?']]
 df_predict['predict_arvore'] = arvore_predict
 
+df_predict['proba_arvore'] = arvore.predict_proba(X)[:, 1]
+
 df_predict
 
 # %%
 
-# Checking the df differences using mean
+# Checking the df differences using mean (accuracy)
 (df_predict['pessoa feliz?'] == df_predict['predict_arvore']).mean()
 
 # %%

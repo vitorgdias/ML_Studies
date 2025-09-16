@@ -3,7 +3,8 @@
 import pandas as pd
 
 df = pd.read_csv('./data/comunidade_dados.csv')
-df.head()
+
+df.columns
 
 # %%
 df = df.replace({'Sim': 1, 'Não': 0})
@@ -127,3 +128,11 @@ plt.title('ROC Curve')
 plt.xlabel('1 - Specificity')
 plt.ylabel('Recall')
 plt.legend([f"Arvore: {auc_arvore:.2f}", f"Naive: {auc_naive:.2f}", f"Regression: {auc_reg:.2f}"])
+
+# %%
+# Serializing the model to be used in the app
+pd.Series({"model": reg, "features": features}).to_pickle('model_feliz.pkl')
+
+# %%
+df_analysis.columns
+# %%

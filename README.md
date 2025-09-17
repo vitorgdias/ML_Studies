@@ -86,7 +86,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 3. Install the dependencies:
 ```bash
 pip install -r requirements.txt
-(Note: You will need to create a requirements.txt file. See below.)
 ```
 
 4. Run the Streamlit application:

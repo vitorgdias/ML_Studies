@@ -3,7 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_excel('./data/dados_cerveja_nota.xlsx')
+df = pd.read_excel('../data/dados_cerveja_nota.xlsx')
 
 df.head()
 

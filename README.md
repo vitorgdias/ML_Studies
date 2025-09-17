@@ -1,5 +1,5 @@
 # Machine Learning Model Explorer 
-Part of the Study from the YouTube - Visit his YouTube channel
+Part of the Study from the YouTube - Visit his YouTube channel for the complete course.
 
 Tell Me Why (https://www.youtube.com/watch?v=oz_rZ92Tmls&list=PLvlkVRRKOYFR6_LmNcJliicNan2TYeFO2)
 

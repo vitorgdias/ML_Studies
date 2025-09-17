@@ -1,4 +1,5 @@
-# Machine Learning Model Explorer - Part of the Study on the YouTube - Tell Me Why (https://www.youtube.com/watch?v=oz_rZ92Tmls&list=PLvlkVRRKOYFR6_LmNcJliicNan2TYeFO2)
+# Machine Learning Model Explorer 
+Part of the Study from the YouTube - Tell Me Why (https://www.youtube.com/watch?v=oz_rZ92Tmls&list=PLvlkVRRKOYFR6_LmNcJliicNan2TYeFO2)
 
 An interactive web application built with Streamlit to explore, compare, and understand the behavior of various machine learning models on real-world regression and classification tasks.
 

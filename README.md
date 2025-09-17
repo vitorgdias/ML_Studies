@@ -17,7 +17,7 @@ This application is divided into two main modules:
 
 ### 1. 🍺 Regression: Beer Prediction
 
-This module tackles a regression problem where the goal is to predict the beer type.
+This module tackles a regression problem where the goal is to predict the beer class.
 
 * **Dataset:** `dados_cerveja.xlsx`
 * **Features (Input):**
